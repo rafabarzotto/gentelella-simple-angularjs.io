@@ -82,7 +82,7 @@
  	//Check if User is authenticated
  	if (User.getCachedCurrent() == null) {
  		User.getCurrent();
- 		//$location.path('/home');
+ 		$location.path('/home');
  	};
 
  });
